@@ -9,3 +9,7 @@ RUN curl https://download.microsoft.com/download/b/c/5/bc5e407f-97ff-42ea-959d-1
 RUN tar -xf sqljdbc_9.4.0.0_enu.tar.gz
 
 RUN cp sqljdbc_9.4/enu/mssql-jdbc-9.4.0.jre11.jar  /camunda/lib/mssql-jdbc-9.4.0.jre11.jar
+
+RUN rm -rf sqljdbc_9.4
+
+USER camunda
