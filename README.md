@@ -33,5 +33,5 @@ services:
             - MSSQL_PID=Developer
 ```
 
-For development on device with Apple Silicon use mcr.microsoft.com/azure-sql-edge as SQL server.
+For development on device with Apple Silicon use image *mcr.microsoft.com/azure-sql-edge* as SQL server.
 
