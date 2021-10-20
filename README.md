@@ -32,3 +32,6 @@ services:
             - MSSQL_SA_PASSWORD=CamundaTest1234
             - MSSQL_PID=Developer
 ```
+
+For development on device with Apple Silicon use mcr.microsoft.com/azure-sql-edge as SQL server.
+
