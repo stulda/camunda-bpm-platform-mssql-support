@@ -4,7 +4,7 @@ Docker Hub: https://hub.docker.com/r/stuldacz/camunda-bpm-platform-mssql-support
 
 Demo docker-compose.yml:
 
-```
+```yml
 version: '3.5'
 services:
 
